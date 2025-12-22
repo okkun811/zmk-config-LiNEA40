@@ -185,10 +185,10 @@
 
         CURSOR {
             bindings = <
-&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                           &trans    &trans          &trans     &trans  &trans
-&kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTRK                       &trans    &kp UP_ARROW    &trans     &trans  &trans
-&kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&none      &kp NUMBER_0  &trans        &trans        &trans     &trans    &kp GLOBE  &trans                    &trans     &trans  &trans
+&kp JP_EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                           &trans    &trans          &trans     &trans  &trans
+&kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  JP_ASTERISK                     &trans    &kp UP_ARROW    &trans     &trans  &trans
+&kp JP_PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH                       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&none         &kp NUMBER_0  &trans        &trans        &trans     &trans    &kp GLOBE  &trans                    &trans     &trans  &trans
             >;
         };
 
